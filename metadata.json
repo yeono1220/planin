@@ -1,0 +1,6 @@
+{
+  "name": "My Planet — 3D Memory World",
+  "description": "Turn one day or trip in Seoul into a tiny explorable 3D planet where you and your friends walk your lived route.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

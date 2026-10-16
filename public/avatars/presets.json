@@ -1,0 +1,62 @@
+[
+  {
+    "id": "avatar_korea_univ_student",
+    "name": "Anam Campus Explorer",
+    "file": "/avatars/avatar1.vrm",
+    "description": "Short textured dark hair, youthful athletic build, varsity jacket silhouette",
+    "thumbnail": "👨‍🎓",
+    "defaultColors": {
+      "hairColor": "#242026",
+      "skinTone": "#F7D6B9",
+      "eyeColor": "#3E2723",
+      "topColor": "#861F41",
+      "bottomColor": "#1E293B",
+      "shoesColor": "#F8FAFC"
+    }
+  },
+  {
+    "id": "avatar_chic_designer",
+    "name": "Hyehwa Theater Creator",
+    "file": "/avatars/avatar2.vrm",
+    "description": "Medium bob with soft bangs, stylish relaxed coat silhouette, tote bag",
+    "thumbnail": "👩‍🎨",
+    "defaultColors": {
+      "hairColor": "#4A3728",
+      "skinTone": "#FCE5D2",
+      "eyeColor": "#4A3B32",
+      "topColor": "#0F766E",
+      "bottomColor": "#334155",
+      "shoesColor": "#991B1B"
+    }
+  },
+  {
+    "id": "avatar_cozy_photographer",
+    "name": "Seoul Alley Walker",
+    "file": "/avatars/avatar3.vrm",
+    "description": "Wavy hair tied loosely, warm knit sweater silhouette, cross-body strap",
+    "thumbnail": "📷",
+    "defaultColors": {
+      "hairColor": "#362B28",
+      "skinTone": "#F1CEB1",
+      "eyeColor": "#292524",
+      "topColor": "#D97706",
+      "bottomColor": "#1E1E24",
+      "shoesColor": "#78350F"
+    }
+  },
+  {
+    "id": "avatar_minimal_night_owl",
+    "name": "Night Street Minimalist",
+    "file": "/avatars/avatar4.vrm",
+    "description": "Clean cropped hair, oversized hoodie silhouette, modern streetwear",
+    "thumbnail": "🌙",
+    "defaultColors": {
+      "hairColor": "#18181B",
+      "skinTone": "#F5D0C5",
+      "eyeColor": "#1C1917",
+      "topColor": "#3B82F6",
+      "bottomColor": "#09090B",
+      "shoesColor": "#E2E8F0"
+    }
+  }
+]

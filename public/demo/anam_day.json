@@ -1,0 +1,349 @@
+{
+  "id": "demo_anam_day",
+  "title": "A Day in Anam — Korea University & Alley Walks",
+  "userStory": "Woke up early for midterms study at Korea University Central Plaza library. Met Minho at 1:30 PM for iced Americano and grilled croffle at Cafe Mignon on Chammeong-gil. In the late afternoon, we walked down to the willow trees along Cheonggyecheon stream to watch the sunset reflect on the water. Ended the day eating warm sundae soup and laughing at Anam 5-way intersection pocha under the red neon glow.",
+  "dayGraph": {
+    "title": "A Day in Anam",
+    "days": [
+      {
+        "dayNumber": 1,
+        "date": "2026-10-14",
+        "title": "Anam Campus & Alley Stroll",
+        "moments": [
+          {
+            "id": "m1_ku_plaza",
+            "day": 1,
+            "time": "10:15 AM",
+            "place": "Korea University Central Plaza",
+            "placeKr": "고려대학교 중앙광장",
+            "lat": 37.5894,
+            "lng": 127.0324,
+            "latLngSource": "gps",
+            "photoIds": ["p1"],
+            "people": ["me"],
+            "activity": "Studying under the gothic clock tower with crisp autumn morning breeze",
+            "mood": "calm",
+            "quote": "Woke up early for midterms study at Korea University Central Plaza library.",
+            "narrative": "A peaceful morning beneath the iconic stone clock tower as autumn leaves sweep across the lawn."
+          },
+          {
+            "id": "m2_cafe_anam",
+            "day": 1,
+            "time": "01:30 PM",
+            "place": "Cafe Mignon Anam",
+            "placeKr": "카페 미뇽 안암골목",
+            "lat": 37.5852,
+            "lng": 127.0298,
+            "latLngSource": "gps",
+            "photoIds": ["p2"],
+            "people": ["me", "minho"],
+            "activity": "Catching up over double espresso and crispy freshly baked waffle",
+            "mood": "happy",
+            "quote": "Met Minho at 1:30 PM for iced Americano and grilled croffle at Cafe Mignon on Chammeong-gil.",
+            "narrative": "Catching up with Minho over sweet desserts while chatting about campus life and upcoming plans."
+          },
+          {
+            "id": "m3_cheonggyecheon",
+            "day": 1,
+            "time": "05:40 PM",
+            "place": "Cheonggyecheon Stream Willow Walk",
+            "placeKr": "청계천 버들습지 산책로",
+            "lat": 37.5741,
+            "lng": 127.0382,
+            "latLngSource": "gps",
+            "photoIds": ["p3"],
+            "people": ["me", "minho"],
+            "activity": "Watching the golden hour glow ripple across stepping stones and flowing water",
+            "mood": "relaxed",
+            "quote": "In the late afternoon, we walked down to the willow trees along Cheonggyecheon stream to watch the sunset reflect on the water.",
+            "narrative": "Golden rays filter through weeping willows as ducks swim along the quiet urban stream."
+          },
+          {
+            "id": "m4_pocha_anam",
+            "day": 1,
+            "time": "08:20 PM",
+            "place": "Anam 5-Way Red Tent Pocha",
+            "placeKr": "안암오거리 포장마차",
+            "lat": 37.5833,
+            "lng": 127.0281,
+            "latLngSource": "gps",
+            "photoIds": ["p4"],
+            "people": ["me", "minho"],
+            "activity": "Sharing sizzling tteokbokki and steaming sundae soup under retro orange tarp",
+            "mood": "excited",
+            "quote": "Ended the day eating warm sundae soup and laughing at Anam 5-way intersection pocha under the red neon glow.",
+            "narrative": "Steam rises into the cool evening air as laughter fills the cozy tent tavern."
+          }
+        ]
+      }
+    ],
+    "people": [
+      {
+        "id": "me",
+        "label": "Junho (Me)",
+        "isMe": true,
+        "consent": true,
+        "photoIds": ["p1", "p2", "p3", "p4"],
+        "cropBoxes": [
+          { "photoId": "p1", "x": 0.25, "y": 0.2, "w": 0.5, "h": 0.6 }
+        ]
+      },
+      {
+        "id": "minho",
+        "label": "Minho",
+        "isMe": false,
+        "consent": true,
+        "photoIds": ["p2", "p3", "p4"],
+        "cropBoxes": [
+          { "photoId": "p2", "x": 0.45, "y": 0.2, "w": 0.45, "h": 0.65 }
+        ]
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Korea University Clock Tower",
+        "nameKr": "고려대 본관 시계탑",
+        "momentId": "m1_ku_plaza",
+        "description": "Historic gothic stone granite building with towering clock spire and ivy details."
+      },
+      {
+        "name": "Anam 5-Way Lantern Gate",
+        "nameKr": "안암오거리 청사초롱길",
+        "momentId": "m4_pocha_anam",
+        "description": "Vibrant street market crossroad framed by glowing neon signs and food stalls."
+      }
+    ],
+    "theme": {
+      "palette": ["#E87A5D", "#F4C077", "#84C7B8", "#4A8FE7", "#7E66CC", "#2C3E50"],
+      "timeOfDay": "sunset"
+    }
+  },
+  "photos": [
+    {
+      "id": "p1",
+      "name": "KU_Plaza_Morning.jpg",
+      "takenAt": "2026-10-14T10:14:22Z",
+      "lat": 37.5894,
+      "lng": 127.0324,
+      "thumbUrl": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "p2",
+      "name": "Cafe_Mignon_Latte.jpg",
+      "takenAt": "2026-10-14T13:28:40Z",
+      "lat": 37.5852,
+      "lng": 127.0298,
+      "thumbUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "p3",
+      "name": "Cheonggyecheon_Sunset.jpg",
+      "takenAt": "2026-10-14T17:39:15Z",
+      "lat": 37.5741,
+      "lng": 127.0382,
+      "thumbUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "p4",
+      "name": "Anam_Night_Pocha.jpg",
+      "takenAt": "2026-10-14T20:18:50Z",
+      "lat": 37.5833,
+      "lng": 127.0281,
+      "thumbUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&auto=format&fit=crop&q=80"
+    }
+  ],
+  "characters": [
+    {
+      "id": "char_me",
+      "personId": "me",
+      "name": "Junho",
+      "isMe": true,
+      "basePreset": "avatar_korea_univ_student",
+      "hairColor": "#1F1F24",
+      "skinTone": "#F5D4B8",
+      "eyeColor": "#3E2723",
+      "topColor": "#861F41",
+      "bottomColor": "#1E293B",
+      "shoesColor": "#F8FAFC",
+      "accessories": ["glasses", "bag"],
+      "heightScale": 1.02,
+      "defaultExpression": "happy",
+      "avatarStyle": "stylized",
+      "criticNotes": "Critic checked: Crimson varsity sweater and circular glasses match student description. Pixel check pass.",
+      "criticPassed": true
+    },
+    {
+      "id": "char_minho",
+      "personId": "minho",
+      "name": "Minho",
+      "isMe": false,
+      "basePreset": "avatar_street_minimal",
+      "hairColor": "#3A2A1D",
+      "skinTone": "#FCE2CB",
+      "eyeColor": "#292524",
+      "topColor": "#0284C7",
+      "bottomColor": "#18181B",
+      "shoesColor": "#F59E0B",
+      "accessories": ["cap"],
+      "heightScale": 0.98,
+      "defaultExpression": "relaxed",
+      "avatarStyle": "stylized",
+      "criticNotes": "Critic checked: Baseball cap and casual navy fleece confirmed from cafe photo. Pixel check pass.",
+      "criticPassed": true
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Korea University Clock Tower",
+      "nameKr": "고려대 본관 시계탑",
+      "momentId": "m1_ku_plaza",
+      "archetype": "campusBuilding",
+      "archetypeParams": {
+        "archetype": "campusBuilding",
+        "length": 8,
+        "width": 6,
+        "trees": 3,
+        "palette": {
+          "primary": "#78716C",
+          "secondary": "#064E3B",
+          "accent": "#F59E0B",
+          "ground": "#E2E8F0"
+        },
+        "signText": "고려대학교"
+      },
+      "footprint": { "width": 8, "depth": 6 },
+      "parts": [],
+      "signatureFeatures": ["Symmetric gothic stone facade", "Pointed clock spire"],
+      "palette": { "wall": "#78716C", "roof": "#064E3B", "trim": "#E7E5E4", "accent": "#F59E0B" },
+      "verified": true,
+      "critique": "Passed archetype validation: Symmetric stone hall with central clock spire."
+    },
+    {
+      "name": "Cheonggyecheon Stream Walkway",
+      "nameKr": "청계천 버들습지 산책로",
+      "momentId": "m3_cheonggyecheon",
+      "archetype": "stream",
+      "archetypeParams": {
+        "archetype": "stream",
+        "length": 11,
+        "width": 6,
+        "bridges": 1,
+        "trees": 4,
+        "steppingStones": 5,
+        "palette": {
+          "primary": "#94A3B8",
+          "secondary": "#38BDF8",
+          "accent": "#FBBF24",
+          "ground": "#CBD5E1"
+        },
+        "signText": "청계천"
+      },
+      "footprint": { "width": 6, "depth": 11 },
+      "parts": [],
+      "signatureFeatures": ["Sunken water channel", "Stepping stones & arched bridge", "Drooping willow trees"],
+      "palette": { "wall": "#94A3B8", "roof": "#38BDF8", "trim": "#64748B" },
+      "verified": true,
+      "critique": "Passed archetype validation: Sunken stream channel with animated water, retaining walls, stepping stones, and willow trees."
+    }
+  ],
+  "routes": [
+    {
+      "day": 1,
+      "source": "routes_api",
+      "distanceMeters": 4210,
+      "durationSeconds": 3120,
+      "points": [
+        { "lat": 37.5894, "lng": 127.0324 },
+        { "lat": 37.5881, "lng": 127.0315 },
+        { "lat": 37.5866, "lng": 127.0305 },
+        { "lat": 37.5852, "lng": 127.0298 },
+        { "lat": 37.5825, "lng": 127.0318 },
+        { "lat": 37.5792, "lng": 127.0345 },
+        { "lat": 37.5768, "lng": 127.0366 },
+        { "lat": 37.5741, "lng": 127.0382 },
+        { "lat": 37.5762, "lng": 127.0350 },
+        { "lat": 37.5798, "lng": 127.0310 },
+        { "lat": 37.5833, "lng": 127.0281 }
+      ]
+    }
+  ],
+  "achievements": [
+    { "id": "ach_first_footsteps", "title": "First Footprints", "description": "Stepped onto the mini planet for the very first time", "icon": "👣", "unlockedAt": "2026-10-15T09:00:00Z" },
+    { "id": "ach_explorer", "title": "Explorer: 4 Places", "description": "Mapped 4 distinct moments across Seoul alleys", "icon": "🧭", "unlockedAt": "2026-10-15T09:01:00Z" },
+    { "id": "ach_better_together", "title": "Better Together", "description": "Explored the city side by side with a close friend", "icon": "🤝", "unlockedAt": "2026-10-15T09:01:30Z" },
+    { "id": "ach_landmark_hunter", "title": "Landmark Hunter", "description": "Erected the iconic Korea University gothic clock tower", "icon": "🏰", "unlockedAt": "2026-10-15T09:02:00Z" },
+    { "id": "ach_golden_hour", "title": "Golden Hour", "description": "Captured sunset reflections over Cheonggyecheon stream", "icon": "🌅", "unlockedAt": "2026-10-15T09:02:15Z" }
+  ],
+  "agentLogs": [
+    {
+      "id": "log_1",
+      "step": "Guardrail Safety Audit",
+      "model": "gemini-3.5-flash-lite",
+      "thinkingLevel": "minimal",
+      "attempt": 1,
+      "durationMs": 420,
+      "tokensUsed": 384,
+      "status": "pass",
+      "details": "Safety screen clean. Zero restricted celebrities or explicit content. Korean place names validated.",
+      "timestamp": "10:15:02"
+    },
+    {
+      "id": "log_2",
+      "step": "Multimodal Day Planner (Argon)",
+      "model": "gemini-4-argon",
+      "thinkingLevel": "medium",
+      "attempt": 1,
+      "durationMs": 1840,
+      "tokensUsed": 1942,
+      "status": "pass",
+      "details": "Synthesized 4 EXIF timestamps + 4 photos + story text into structured DayGraph. Centroid: 37.5830, 127.0321.",
+      "timestamp": "10:15:04"
+    },
+    {
+      "id": "log_3",
+      "step": "Zod Schema Rigorous Validation",
+      "model": "zod-engine-v4",
+      "thinkingLevel": "low",
+      "attempt": 1,
+      "durationMs": 12,
+      "status": "pass",
+      "details": "DayGraph, Moments and People schemas 100% compliant with strict runtime contracts.",
+      "timestamp": "10:15:05"
+    },
+    {
+      "id": "log_4",
+      "step": "Character Spec Forge & Critic Loop",
+      "model": "gemini-4-argon",
+      "thinkingLevel": "medium",
+      "attempt": 1,
+      "durationMs": 1230,
+      "tokensUsed": 890,
+      "status": "pass",
+      "details": "Critic turntable evaluation: Crimson top (#861F41) verified. Circular glasses accessory confirmed. SHA-256 locked.",
+      "timestamp": "10:15:06"
+    },
+    {
+      "id": "log_5",
+      "step": "Landmark Kit Assembly & Sandbox",
+      "model": "gemini-4-argon",
+      "thinkingLevel": "medium",
+      "attempt": 1,
+      "durationMs": 1410,
+      "tokensUsed": 1420,
+      "status": "pass",
+      "details": "Generated Korea University Gothic Clock Tower via procedural kit API (roundedBox, spire, columns). Sandbox executed safely.",
+      "timestamp": "10:15:08"
+    },
+    {
+      "id": "log_6",
+      "step": "Google Routes API Topo Snapping",
+      "model": "routes-api-walker",
+      "thinkingLevel": "low",
+      "attempt": 1,
+      "durationMs": 610,
+      "status": "pass",
+      "details": "Real walking polyline computed (4.21 km). Dashed road tube generated with street trees and lamps.",
+      "timestamp": "10:15:09"
+    }
+  ]
+}

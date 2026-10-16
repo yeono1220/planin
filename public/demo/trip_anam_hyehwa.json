@@ -1,0 +1,358 @@
+{
+  "id": "demo_trip_anam_hyehwa",
+  "title": "2-Day Seoul Trip — Anam Alleys to Hyehwa Sunset Ridge",
+  "userStory": "Day 1: Started on Korea University Science Campus exploring engineering lab courtyards. Ate spicy bibimbap near Anam Station, then strolled down Bomun-dong residential streets to the old hanok tea house. Day 2: Headed west to Hyehwa Daehangno. Watched an indie theatre rehearsal at Marunir Park under the towering red brick trees, grabbed hand-drip filter coffee at Hakrim Dabang, and hiked up to Naksan Park Fortress wall just as the Seoul city lights flickered on across the valley.",
+  "dayGraph": {
+    "title": "Anam to Hyehwa 2-Day Adventure",
+    "days": [
+      {
+        "dayNumber": 1,
+        "date": "2026-10-13",
+        "title": "Day 1: Anam Campus & Traditional Hanok",
+        "moments": [
+          {
+            "id": "m1_anam_sci",
+            "day": 1,
+            "time": "11:00 AM",
+            "place": "KU Science Campus Courtyard",
+            "placeKr": "고려대학교 이공계 캠퍼스",
+            "lat": 37.5855,
+            "lng": 127.0270,
+            "latLngSource": "gps",
+            "photoIds": ["pt1"],
+            "people": ["me", "sujin"],
+            "activity": "Meeting Sujin between lectures and talking about architectural models",
+            "mood": "calm",
+            "quote": "Day 1: Started on Korea University Science Campus exploring engineering lab courtyards.",
+            "narrative": "Crisp autumn morning amidst the brick and glass engineering halls."
+          },
+          {
+            "id": "m2_bomun_tea",
+            "day": 1,
+            "time": "03:30 PM",
+            "place": "Bomun Hanok Tea Haven",
+            "placeKr": "보문동 한옥 전통찻집",
+            "lat": 37.5802,
+            "lng": 127.0195,
+            "latLngSource": "gps",
+            "photoIds": ["pt2"],
+            "people": ["me", "sujin"],
+            "activity": "Sipping warm omija tea with baked glutinous rice cakes in the wooden courtyard",
+            "mood": "relaxed",
+            "quote": "Ate spicy bibimbap near Anam Station, then strolled down Bomun-dong residential streets to the old hanok tea house.",
+            "narrative": "Quiet raindrops on clay roof tiles while fragrant herbal tea steams."
+          }
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "date": "2026-10-14",
+        "title": "Day 2: Hyehwa Theatre & Naksan Fortress Ridge",
+        "moments": [
+          {
+            "id": "m3_marunier",
+            "day": 2,
+            "time": "01:15 PM",
+            "place": "Marunir Park & Arco Arts Center",
+            "placeKr": "마로니에공원 아르코예술극장",
+            "lat": 37.5808,
+            "lng": 127.0033,
+            "latLngSource": "gps",
+            "photoIds": ["pt3"],
+            "people": ["me", "sujin", "daniel"],
+            "activity": "Watching street pantomime and outdoor theatre rehearsals under chestnut trees",
+            "mood": "excited",
+            "quote": "Day 2: Headed west to Hyehwa Daehangno. Watched an indie theatre rehearsal at Marunir Park under the towering red brick trees",
+            "narrative": "A lively cultural hub brimming with youth, actors, and acoustic melodies."
+          },
+          {
+            "id": "m4_hakrim",
+            "day": 2,
+            "time": "04:00 PM",
+            "place": "Hakrim Dabang 1956",
+            "placeKr": "학림다방 대학로",
+            "lat": 37.5828,
+            "lng": 127.0016,
+            "latLngSource": "gps",
+            "photoIds": ["pt4"],
+            "people": ["me", "sujin", "daniel"],
+            "activity": "Listening to classic vinyl Mozart while sipping hand-drip blend with cream cheesecake",
+            "mood": "happy",
+            "quote": "grabbed hand-drip filter coffee at Hakrim Dabang",
+            "narrative": "Sixty years of Seoul memories etched onto vintage wooden tables."
+          },
+          {
+            "id": "m5_naksan",
+            "day": 2,
+            "time": "06:45 PM",
+            "place": "Naksan Seoul City Wall Lookout",
+            "placeKr": "낙산공원 한양도성 순성길",
+            "lat": 37.5804,
+            "lng": 127.0076,
+            "latLngSource": "gps",
+            "photoIds": ["pt5"],
+            "people": ["me", "sujin", "daniel"],
+            "activity": "Walking the lit stone fortress rampart overlooking the panoramic city twilight",
+            "mood": "surprised",
+            "quote": "and hiked up to Naksan Park Fortress wall just as the Seoul city lights flickered on across the valley.",
+            "narrative": "Ancient fortress walls illuminated with warm amber spotlights as evening descends."
+          }
+        ]
+      }
+    ],
+    "people": [
+      {
+        "id": "me",
+        "label": "You (Junho)",
+        "isMe": true,
+        "consent": true,
+        "photoIds": ["pt1", "pt2", "pt3", "pt4", "pt5"],
+        "cropBoxes": []
+      },
+      {
+        "id": "sujin",
+        "label": "Sujin",
+        "isMe": false,
+        "consent": true,
+        "photoIds": ["pt1", "pt2", "pt3", "pt4", "pt5"],
+        "cropBoxes": []
+      },
+      {
+        "id": "daniel",
+        "label": "Daniel",
+        "isMe": false,
+        "consent": true,
+        "photoIds": ["pt3", "pt4", "pt5"],
+        "cropBoxes": []
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Arco Red Brick Art Center",
+        "nameKr": "아르코미술관 붉은벽돌",
+        "momentId": "m3_marunier",
+        "description": "Masterpiece red-brick cultural hall by architect Kim Swoo-geun."
+      },
+      {
+        "name": "Naksan Stone Fortress Wall",
+        "nameKr": "한양도성 낙산성곽",
+        "momentId": "m5_naksan",
+        "description": "Historic Joseon dynasty stone battlements glowing along the mountain ridge."
+      }
+    ],
+    "theme": {
+      "palette": ["#4F46E5", "#06B6D4", "#10B981", "#F59E0B", "#EF4444", "#8B5CF6"],
+      "timeOfDay": "sunset"
+    }
+  },
+  "photos": [
+    {
+      "id": "pt1",
+      "name": "Science_Campus_KU.jpg",
+      "takenAt": "2026-10-13T11:05:00Z",
+      "lat": 37.5855,
+      "lng": 127.0270,
+      "thumbUrl": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "pt2",
+      "name": "Hanok_Tea_Bomun.jpg",
+      "takenAt": "2026-10-13T15:32:00Z",
+      "lat": 37.5802,
+      "lng": 127.0195,
+      "thumbUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "pt3",
+      "name": "Marunier_Park_Arco.jpg",
+      "takenAt": "2026-10-14T13:16:00Z",
+      "lat": 37.5808,
+      "lng": 127.0033,
+      "thumbUrl": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "pt4",
+      "name": "Hakrim_Dabang_Coffee.jpg",
+      "takenAt": "2026-10-14T16:02:00Z",
+      "lat": 37.5828,
+      "lng": 127.0016,
+      "thumbUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "pt5",
+      "name": "Naksan_Fortress_Night.jpg",
+      "takenAt": "2026-10-14T18:48:00Z",
+      "lat": 37.5804,
+      "lng": 127.0076,
+      "thumbUrl": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=600&auto=format&fit=crop&q=80"
+    }
+  ],
+  "characters": [
+    {
+      "id": "char_me",
+      "personId": "me",
+      "name": "Junho",
+      "isMe": true,
+      "basePreset": "avatar_korea_univ_student",
+      "hairColor": "#1E1E24",
+      "skinTone": "#F5D4B8",
+      "eyeColor": "#3E2723",
+      "topColor": "#4F46E5",
+      "bottomColor": "#1E293B",
+      "shoesColor": "#FFFFFF",
+      "accessories": ["glasses", "scarf"],
+      "heightScale": 1.02,
+      "defaultExpression": "happy",
+      "avatarStyle": "stylized",
+      "criticNotes": "Critic checked: Warm knit scarf added for autumn hill walk. Pixel check pass.",
+      "criticPassed": true
+    },
+    {
+      "id": "char_sujin",
+      "personId": "sujin",
+      "name": "Sujin",
+      "isMe": false,
+      "basePreset": "avatar_chic_designer",
+      "hairColor": "#4A3728",
+      "skinTone": "#FCE5D2",
+      "eyeColor": "#4A3B32",
+      "topColor": "#0F766E",
+      "bottomColor": "#334155",
+      "shoesColor": "#991B1B",
+      "accessories": ["bag"],
+      "heightScale": 0.96,
+      "defaultExpression": "relaxed",
+      "avatarStyle": "stylized",
+      "criticNotes": "Critic checked: Green coat and art folder bag verified from Marunier photo. Pass.",
+      "criticPassed": true
+    },
+    {
+      "id": "char_daniel",
+      "personId": "daniel",
+      "name": "Daniel",
+      "isMe": false,
+      "basePreset": "avatar_minimal_night_owl",
+      "hairColor": "#18181B",
+      "skinTone": "#F2CEBA",
+      "eyeColor": "#292524",
+      "topColor": "#D97706",
+      "bottomColor": "#0F172A",
+      "shoesColor": "#64748B",
+      "accessories": ["cap"],
+      "heightScale": 1.05,
+      "defaultExpression": "surprised",
+      "avatarStyle": "stylized",
+      "criticNotes": "Critic checked: Amber hoodie and dark beanie matched. Pass.",
+      "criticPassed": true
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Marunir Park & Arco Arts Center",
+      "nameKr": "마로니에공원 아르코예술극장",
+      "momentId": "m3_marunier",
+      "archetype": "park",
+      "archetypeParams": {
+        "archetype": "park",
+        "length": 8,
+        "width": 6,
+        "trees": 3,
+        "palette": {
+          "primary": "#991B1B",
+          "secondary": "#15803D",
+          "accent": "#FEF08A",
+          "ground": "#E2E8F0"
+        },
+        "signText": "마로니에공원"
+      },
+      "footprint": { "width": 8, "depth": 6 },
+      "parts": [],
+      "signatureFeatures": ["Architectural raw red brick exterior", "Marunir square trees"],
+      "palette": { "wall": "#991B1B", "roof": "#7F1D1D", "trim": "#FEF3C7" },
+      "verified": true,
+      "critique": "Passed archetype validation: Lush park with brick pavilion and benches."
+    },
+    {
+      "name": "Naksan Stone Fortress Wall",
+      "nameKr": "한양도성 낙산성곽",
+      "momentId": "m5_naksan",
+      "archetype": "park",
+      "archetypeParams": {
+        "archetype": "park",
+        "length": 9,
+        "width": 5,
+        "trees": 2,
+        "palette": {
+          "primary": "#78716C",
+          "secondary": "#15803D",
+          "accent": "#FBBF24",
+          "ground": "#CBD5E1"
+        },
+        "signText": "한양도성"
+      },
+      "footprint": { "width": 7, "depth": 4 },
+      "parts": [],
+      "signatureFeatures": ["Historic stone battlements", "Warm night wall uplights"],
+      "palette": { "wall": "#78716C", "roof": "#A8A29E", "trim": "#FBBF24" },
+      "verified": true,
+      "critique": "Passed archetype validation: Historic fortress stone wall on mountain spine."
+    }
+  ],
+  "routes": [
+    {
+      "day": 1,
+      "source": "routes_api",
+      "distanceMeters": 2100,
+      "durationSeconds": 1600,
+      "points": [
+        { "lat": 37.5855, "lng": 127.0270 },
+        { "lat": 37.5835, "lng": 127.0240 },
+        { "lat": 37.5818, "lng": 127.0210 },
+        { "lat": 37.5802, "lng": 127.0195 }
+      ]
+    },
+    {
+      "day": 2,
+      "source": "routes_api",
+      "distanceMeters": 3450,
+      "durationSeconds": 2600,
+      "points": [
+        { "lat": 37.5808, "lng": 127.0033 },
+        { "lat": 37.5818, "lng": 127.0025 },
+        { "lat": 37.5828, "lng": 127.0016 },
+        { "lat": 37.5819, "lng": 127.0045 },
+        { "lat": 37.5804, "lng": 127.0076 }
+      ]
+    }
+  ],
+  "achievements": [
+    { "id": "ach_multi_day", "title": "Multi-Day Odyssey", "description": "Successfully explored across 2 full days in Seoul", "icon": "🗓️", "unlockedAt": "2026-10-15T09:00:00Z" },
+    { "id": "ach_ridge_walker", "title": "Fortress Ridge Walker", "description": "Climbed the historic Naksan city wall at twilight", "icon": "⛰️", "unlockedAt": "2026-10-15T09:01:00Z" },
+    { "id": "ach_trio", "title": "Trio Expedition", "description": "Walked together with 3 friends", "icon": "🧑‍🤝‍🧑", "unlockedAt": "2026-10-15T09:02:00Z" }
+  ],
+  "agentLogs": [
+    {
+      "id": "log_t1",
+      "step": "Multi-Day Context Partitioning",
+      "model": "gemini-4-argon",
+      "thinkingLevel": "medium",
+      "attempt": 1,
+      "durationMs": 2100,
+      "tokensUsed": 2680,
+      "status": "pass",
+      "details": "Partitioned 5 photos & story into Day 1 (Anam/Bomun) and Day 2 (Hyehwa/Naksan). Two distinct route clusters formed.",
+      "timestamp": "11:20:00"
+    },
+    {
+      "id": "log_t2",
+      "step": "Dual Territory Rescaling",
+      "model": "zod-engine-v4",
+      "thinkingLevel": "low",
+      "attempt": 1,
+      "durationMs": 15,
+      "status": "pass",
+      "details": "Azimuthal projection spanned to 68° encompassing both Anam (East) and Hyehwa (West) clusters.",
+      "timestamp": "11:20:02"
+    }
+  ]
+}
